@@ -22,7 +22,7 @@ class Fly
         var pointA = this.body.bodyA.position;
         var pointB = this.pointB;
         push()
-        strokeWeight(2);
+        strokeWeight(0);
         line(pointB.x,pointB.y,pointA.x,pointA.y);
         pop()
       }
